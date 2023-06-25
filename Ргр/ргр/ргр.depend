@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1670791632 source:c:\”ник\алгор\–гр\ргр\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

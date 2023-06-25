@@ -1,0 +1,3 @@
+C:/Universite/AP/Artem_kurs/cmake-build-debug/CMakeFiles/Artem_kurs.dir
+C:/Universite/AP/Artem_kurs/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Universite/AP/Artem_kurs/cmake-build-debug/CMakeFiles/rebuild_cache.dir
