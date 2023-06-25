@@ -1,0 +1,121 @@
+        -:    0:Source:C:/Universite/Lab 11/main.cpp
+        -:    0:Graph:C:\Universite\Lab 11\cmake-build-debug-coverage\CMakeFiles\Lab_11.dir\main.cpp.gcno
+        -:    0:Data:C:\Universite\Lab 11\cmake-build-debug-coverage\CMakeFiles\Lab_11.dir\main.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include <iostream>
+        -:    2:
+        -:    3:using namespace std;
+        -:    4:
+function _Z5Primei called 96 returned 100% blocks executed 89%
+       96:    5:bool Prime(int number) {
+       96:    6:    if (number < 2) {
+       96:    6-block  0
+branch  0 taken 0 (fallthrough)
+branch  1 taken 96
+    #####:    7:        return false;
+    %%%%%:    7-block  0
+        -:    8:    }
+      257:    9:    for (int i = 2; i*i <= number; i++) {
+       96:    9-block  0
+      161:    9-block  1
+      257:    9-block  2
+branch  0 taken 232
+branch  1 taken 25 (fallthrough)
+      232:   10:        if (number % i == 0) {
+      232:   10-block  0
+branch  0 taken 71 (fallthrough)
+branch  1 taken 161
+       71:   11:            return false;
+       71:   11-block  0
+        -:   12:        }
+        -:   13:    }
+       25:   14:    return true;
+       25:   14-block  0
+        -:   15:}
+        -:   16:
+function main called 1 returned 100% blocks executed 96%
+        1:   17:int main() {
+        -:   18:    int n;
+        1:   19:    cout << "Enter the number N: ";
+        1:   19-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   20:    cin >> n;
+        1:   20-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        -:   21:
+       1*:   22:    int *primes = new int[n];
+        1:   22-block  0
+branch  0 taken 1 (fallthrough)
+branch  1 taken 0
+        1:   22-block  1
+    %%%%%:   22-block  2
+call    2 never executed
+        1:   22-block  3
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   23:    int *p = primes;
+        1:   24:    int i = 2;
+       97:   25:    while (p < primes + n) {
+        1:   25-block  0
+       97:   25-block  1
+branch  0 taken 96
+branch  1 taken 1 (fallthrough)
+       96:   26:        if (Prime(i)) {
+       96:   26-block  0
+call    0 returned 96
+branch  1 taken 25 (fallthrough)
+branch  2 taken 71
+       25:   27:            *p = i;
+       25:   28:            p++;
+       25:   28-block  0
+        -:   29:        }
+       96:   30:        i++;
+       96:   30-block  0
+        -:   31:    }
+        -:   32:
+        1:   33:    cout << "All prime numbers in the range:"<<endl;
+        1:   33-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   33-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+       26:   34:    for (int *q = primes; q < primes + n; q++) {
+        1:   34-block  0
+       25:   34-block  1
+       26:   34-block  2
+branch  0 taken 25
+branch  1 taken 1 (fallthrough)
+       25:   35:        cout << *q << " ";
+       25:   35-block  0
+call    0 returned 25
+branch  1 taken 25 (fallthrough)
+branch  2 taken 0 (throw)
+       25:   35-block  1
+call    3 returned 25
+branch  4 taken 25 (fallthrough)
+branch  5 taken 0 (throw)
+        -:   36:    }
+        1:   37:    cout << endl;
+        1:   37-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        -:   38:
+        1:   39:    delete[] primes;
+        1:   39-block  0
+branch  0 taken 1 (fallthrough)
+branch  1 taken 0
+        1:   39-block  1
+call    2 returned 1
+        -:   40:
+        1:   41:    return 0;
+        1:   41-block  0
+        -:   42:}
