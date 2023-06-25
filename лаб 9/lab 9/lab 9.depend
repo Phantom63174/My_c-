@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1672065923 source:c:\Уник\алгор\лаб 9\lab 9\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+

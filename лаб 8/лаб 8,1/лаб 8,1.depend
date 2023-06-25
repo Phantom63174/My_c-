@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1670406535 source:c:\Уник\алгор\лаб 8\лаб 8,1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

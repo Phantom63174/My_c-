@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1666865761 source:c:\Уник\laba 3.1\main.c
+	<stdio.h>
+	<math.h>
+	<locale.h>
+
+1666866116 source:c:\Уник\алгор\laba 3.1\main.c
+	<stdio.h>
+	<math.h>
+	<locale.h>
+
+1666862516 source:c:\Уник\алгор\лаб 3\laba 3.1\main.c
+	<stdio.h>
+	<math.h>
+	<locale.h>
+

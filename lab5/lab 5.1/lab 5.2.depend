@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1667482099 source:c:\Уник\алгор\lab5\lab 5.2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1665731089 source:e:\уник\алгор\лаб2\лаб2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+	<conio.h>
+

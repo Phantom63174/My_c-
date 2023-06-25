@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1670173819 source:c:\Уник\алгор\lab 6\lab 6\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+
